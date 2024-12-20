@@ -13,7 +13,7 @@ import threading
 import graphrag
 import vectorrag
 
-class PDFGraphRAGApp:
+class PDFVectorRAGApp:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("PDF GraphRAG System")
@@ -183,7 +183,7 @@ class PDFGraphRAGApp:
         self.root.mainloop()
 
 def main():
-    app = PDFGraphRAGApp()
+    app = PDFVectorRAGApp()
     app.run()
 
 if __name__ == "__main__":
