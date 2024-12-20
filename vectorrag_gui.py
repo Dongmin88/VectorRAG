@@ -10,7 +10,6 @@ from tqdm import tqdm
 import tkinter as tk
 from tkinter import filedialog, ttk
 import threading
-import graphrag
 import vectorrag
 
 class PDFVectorRAGApp:
